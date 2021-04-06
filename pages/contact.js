@@ -9,7 +9,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Iframe from '@trendmicro/react-iframe';
 
 // importing custom layout
-import CustomLayout from './layout/CustomLayout';
+import CustomLayout from '../components/layout/CustomLayout';
 
 const Contact = () => {
     return (

@@ -8,7 +8,7 @@ import FsLightbox from 'fslightbox-react';
 import { Col, Container, Row } from 'react-bootstrap';
 
 // importing custom layout
-import CustomLayout from './layout/CustomLayout';
+import CustomLayout from '../components/layout/CustomLayout';
 
 const Gallery = () => {
   

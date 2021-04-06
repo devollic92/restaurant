@@ -2,12 +2,12 @@
 import { withLayout } from '@moxy/next-layout';
 
 // importing components
-import Introduction from './components/Introduction';
-import Offer from './components/Offer';
-import Reservation from './components/Reservation';
+import Introduction from '../components/Introduction';
+import Offer from '../components/Offer';
+import Reservation from '../components/Reservation';
 
 // importing default layout
-import DefaultLayout from './layout/DefaultLayout';
+import DefaultLayout from '../components/layout/DefaultLayout';
 
 const Index = () => {
     return (

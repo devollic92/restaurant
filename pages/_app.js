@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import DefaultLayout from './layout/DefaultLayout';
+import DefaultLayout from '../components/layout/DefaultLayout';
 
 import { LayoutTree } from '@moxy/next-layout';
 
