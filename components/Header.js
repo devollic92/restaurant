@@ -29,7 +29,7 @@ const Header = () => {
                         </Col>
                         <Col xs={6} md={6}>
                             <div className="phone-block float-right">
-                            <FontAwesomeIcon className="phone-icon" icon={faPhone} rotation={90} size="xs" /><Link href="tel:02078378398"><a className="phone">020 7837 8398</a></Link>
+                            <FontAwesomeIcon className="phone-icon" icon={faPhone} /><Link href="tel:02078378398"><a className="phone">020 7837 8398</a></Link>
                             </div>  
                         </Col>
                         </Row>

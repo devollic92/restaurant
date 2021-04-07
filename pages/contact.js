@@ -1,3 +1,4 @@
+import Head from 'next/head';
 
 // layout persistent library
 import { withLayout } from '@moxy/next-layout';
@@ -14,6 +15,10 @@ import CustomLayout from '../components/layout/CustomLayout';
 const Contact = () => {
     return (
         <>
+            <Head>
+                <title>Contact | Indian Restaurant in Kings Cross, London WC1X | Indian Lounge</title>           
+                <meta name="description" content="Indian Lounge restaurant offers Indian food to takeaway or eat in the restaurant. The restaurant address is 343 Grays Inn Road, Kings Cross, London WC1X 8PX."></meta>        
+            </Head>        
             <div className="inner-banner">
                 <div className="banner-overlay"></div>
                 <Container>

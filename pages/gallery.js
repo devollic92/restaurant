@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 // layout persistent library
 import { withLayout } from '@moxy/next-layout';
 
@@ -42,6 +44,10 @@ const Gallery = () => {
 
     return (
       <>
+      <Head>
+          <title>Indian Lounge | Food &amp; Restaurant Gallery</title>           
+          <meta name="description" content="Visit photo gallery of Indian Lounge, located in Grays Inn Road, Kings Cross, London WC1X, offering the best food to cater for everyone's tastebuds."></meta>        
+      </Head>
       <div className="inner-banner">
           <div className="banner-overlay"></div>
           <Container>

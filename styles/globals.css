@@ -127,7 +127,6 @@ body {
 }
 
 .phone-block {
-  margin-top: 15px;
   color: #fff;
   margin-top: 10px;
 }
@@ -145,7 +144,10 @@ body {
 }
 
 .phone-icon {
+  color: #fff;
+  width: 10px !important;
   margin-right: 5px;
+  transform: rotateY(180deg);
 }
 
 /* Topmenu */
