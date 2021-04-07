@@ -37,6 +37,7 @@ const Gallery = () => {
 
     const styling = {
       objectFit: 'cover',
+      cursor: 'pointer'
   }
 
     return (
