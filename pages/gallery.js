@@ -1,15 +1,10 @@
 import Head from 'next/head';
-
-// layout persistent library
 import { withLayout } from '@moxy/next-layout';
 
 import React, { useState } from 'react';
 import FsLightbox from 'fslightbox-react';
 
-// importing classes - react bootstrap
 import { Col, Container, Row } from 'react-bootstrap';
-
-// importing custom layout
 import CustomLayout from '../components/layout/CustomLayout';
 
 const Gallery = () => {

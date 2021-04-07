@@ -1,4 +1,3 @@
-// importing classes - react bootstrap
 import { Col, Container, Row } from "react-bootstrap";
 
 const year = new Date().getFullYear()

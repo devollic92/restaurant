@@ -1,7 +1,6 @@
-// importing classes - react bootstrap
 import { Col, Container, Row } from "react-bootstrap";
 
-import ornaments from '../slider/ornaments.png';
+import ornaments from '../public/ornaments.png';
 
 const Introduction = () => {
     return (

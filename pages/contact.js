@@ -1,15 +1,7 @@
 import Head from 'next/head';
-
-// layout persistent library
 import { withLayout } from '@moxy/next-layout';
-
-// importing classes - react bootstrap
 import { Col, Container, Row } from 'react-bootstrap';
-
-// importing iframe library
 import Iframe from '@trendmicro/react-iframe';
-
-// importing custom layout
 import CustomLayout from '../components/layout/CustomLayout';
 
 const Contact = () => {

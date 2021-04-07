@@ -1,19 +1,15 @@
-// importing next -link
 import Link from 'next/link';
 
-// importing swiper 
 import Swiper from 'react-id-swiper';
 import 'swiper/swiper-bundle.css';
 import SwiperCore, { Autoplay, Pagination } from 'swiper';
 SwiperCore.use([ Autoplay, Pagination ]);
 
-// importing classes - react bootstrap
 import { Container } from 'react-bootstrap';
 
-// importing images
-import image1 from '../slider/image1.jpg';
-import image2 from '../slider/image2.jpg';
-import image3 from '../slider/image3.jpg';
+import image1 from '../public/slider/image1.jpg';
+import image2 from '../public/slider/image2.jpg';
+import image3 from '../public/slider/image3.jpg';
 
 
 // swiper slider configuration

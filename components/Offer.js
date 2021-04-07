@@ -1,11 +1,8 @@
-// importing classes - react bootstrap
+import Link from 'next/link';
 import { Col, Container, Row } from "react-bootstrap"
 
-// import next - link
-import Link from 'next/link';
-
-import img1 from '../slider/offer1.jpg';
-import img2 from '../slider/offer2.jpg';
+import img1 from '../public/offer1.jpg';
+import img2 from '../public/offer2.jpg';
 
 const OfferLeft = () => {
     return (

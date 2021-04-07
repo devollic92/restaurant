@@ -1,10 +1,5 @@
-// importing next - link
 import Link from 'next/link';
-
-// importing classes - react bootstrap
 import { Col, Container, Row, Navbar, Nav } from "react-bootstrap";
-
-// importing fontawesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTripadvisor, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";

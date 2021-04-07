@@ -1,9 +1,5 @@
-// importing classes - react bootstrap
-import { Col, Container, Row } from "react-bootstrap"
-
-// import next - link
 import Link from 'next/link';
-
+import { Col, Container, Row } from "react-bootstrap"
 
 const Reservation = () => {
     return (
