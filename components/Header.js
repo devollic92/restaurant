@@ -17,13 +17,13 @@ const Header = () => {
                     <Container>
                         <Row>
                         <Col xs={6} md={6}>
-                            <Link href="https://www.facebook.com/Rajah-Tandoori-525270921162468/">
+                            <Link href="https://www.facebook.com/indianloungekingcross/">
                             <a target="_blank"><FontAwesomeIcon className="socials facebook" icon={faFacebookF} /></a>
                             </Link>
-                            <Link href="https://www.tripadvisor.com/Restaurant_Review-g528789-d5815301-Reviews-Rajah_Tandoori-Bury_Greater_Manchester_England.html">
+                            <Link href="https://www.tripadvisor.com/Restaurant_Review-g186338-d3206568-Reviews-Indian_Lounge-London_England.html">
                             <a target="_blank"><FontAwesomeIcon className="socials tripadvisor" icon={faTripadvisor} /></a>
                             </Link>
-                            <Link href="https://twitter.com/rajahtandoori">
+                            <Link href="https://twitter.com/IndianLounge_">
                             <a target="_blank"><FontAwesomeIcon className="socials twitter" icon={faTwitter} /></a>
                             </Link>
                         </Col>
