@@ -613,6 +613,10 @@ body {
   text-decoration: underline;
 }
 
+.hygiene {
+  margin-top: 8px;
+}
+
 /* Copyright */
 
 .copyright {

@@ -1,8 +1,8 @@
-// importing classes - react bootstrap
-import { Col, Container, Row } from "react-bootstrap";
-
 // import next - link
 import Link from 'next/link';
+
+// importing classes - react bootstrap
+import { Col, Container, Row } from "react-bootstrap";
 
 const Footer = () => {
     return (
@@ -20,6 +20,9 @@ const Footer = () => {
                     </Col>
                     <Col md={4}>
                         <h3 className="page-heading-1">Food Hygiene Rating</h3>
+                        <div className="hygiene">
+                            <Link href="https://ratings.food.gov.uk/business/en-GB/779023/Indian-Lounge-Camden"><a target="_blank"><img className="hygiene" src="/hygiene4.jpg" alt="Food Hygiene"/></a></Link>
+                        </div>
                     </Col>
                 </Row>
             </Container>
