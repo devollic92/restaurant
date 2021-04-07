@@ -180,19 +180,6 @@ body {
   width: 30px;
 }
 
-.navbar-nav .nav-link::before {
-  background: #7E017D !important;
-  content: '';
-  position: absolute;
-  bottom: 20px;
-  width: 0px;
-  height: 2px;
-  background: #fff;
-  transition: all 0.20s ease-out;
-  -webkit-transition: all 0.20s ease-out;
-  -ms-transition: all 0.20s ease-out;
-}
-
 /* increase or decrease padding based on menu items */
 
 @media (min-width: 992px) {
@@ -200,6 +187,19 @@ body {
     padding-right: 1rem !important;
     padding-left: 1rem !important;
   }
+
+  .navbar-nav .nav-link::before {
+    background: #7E017D !important;
+    content: '';
+    position: absolute;
+    bottom: 20px;
+    width: 0px;
+    height: 2px;
+    background: #fff;
+    transition: all 0.20s ease-out;
+    -webkit-transition: all 0.20s ease-out;
+    -ms-transition: all 0.20s ease-out;
+  }  
 }  
 
 .navbar-nav .nav-link:last-child {
@@ -432,7 +432,7 @@ body {
 .reservation {
   background-image: url('../slider/reservation.jpg');
   position: relative;
-  background-attachment: fixed;
+  background-attachment: scroll;
   padding-top: 100px;
   padding-bottom: 100px;
   background-position: left center;

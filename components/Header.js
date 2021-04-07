@@ -40,7 +40,7 @@ const Header = () => {
                         <Row>
                             <Col>
                             <Navbar expand="lg">
-                            <img src="/main-logo.png" className="img-fluid" alt="logo"/>
+                            <Link href="/"><a><img src="/main-logo.png" className="img-fluid" alt="logo"/></a></Link>
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav className="ml-auto">
