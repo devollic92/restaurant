@@ -45,8 +45,8 @@ const Header = () => {
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav className="ml-auto">
                                 <Link href="/"><a className="nav-link">Home</a></Link>
-                                <Link href="/"><a className="nav-link">Order Online</a></Link>
-                                <Link href="/"><a className="nav-link">Reservation</a></Link>
+                                <Link href="https://backoffice.chefonline.co.uk/draft/indian-lounge-kings-cross-london-wc1x/menu"><a target="_blank" className="nav-link">Order Online</a></Link>
+                                <Link href="https://backoffice.chefonline.co.uk/draft/indian-lounge-kings-cross-london-wc1x/reservations"><a target="_blank" className="nav-link">Reservation</a></Link>
                                 <Link href="/gallery"><a className="nav-link">Gallery</a></Link>
                                 <Link href="/contact"><a className="nav-link">Contact</a></Link>
                                 </Nav>

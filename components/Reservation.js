@@ -15,7 +15,7 @@ const Reservation = () => {
                         <h2 className="div-heading-1">Book to enjoy a sumptuous culinary experience</h2>
                     </Col>
                     <Col md={12} className="text-center reservation-btn">
-                        <Link href="#"><a className="custom-btn" target="_blank">Reservation</a></Link>
+                        <Link href="https://backoffice.chefonline.co.uk/draft/indian-lounge-kings-cross-london-wc1x/reservations"><a target="_blank" className="custom-btn" target="_blank">Reservation</a></Link>
                     </Col>
                 </Row>
             </Container>

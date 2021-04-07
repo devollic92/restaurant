@@ -16,7 +16,7 @@ const OfferLeft = () => {
                         <div className="offer-main custom-margin">
                             <div className="img-block">
                                 <img src={img1} alt="Offer1" className="img-fluid"/>       
-                                <Link href="#"><a className="btn-position custom-btn" target="_blank">View Menu</a></Link>
+                                <Link href="https://backoffice.chefonline.co.uk/draft/indian-lounge-kings-cross-london-wc1x/menu"><a target="_blank" className="btn-position custom-btn" target="_blank">View Menu</a></Link>
                             </div>    
                             <div className="offer-name">
                                 <h2>Order Online</h2>                                
@@ -31,7 +31,7 @@ const OfferLeft = () => {
                         <div className="offer-main">
                             <div className="img-block">
                                 <img src={img2} alt="Offer2" className="img-fluid"/>       
-                                <Link href="#"><a className="btn-position custom-btn" target="_blank">Order Now</a></Link>
+                                <Link href="https://backoffice.chefonline.co.uk/draft/indian-lounge-kings-cross-london-wc1x/menu"><a target="_blank" className="btn-position custom-btn" target="_blank">Order Now</a></Link>
                             </div>
                             <div className="offer-name">
                                 <h2>Home Delivery</h2>
