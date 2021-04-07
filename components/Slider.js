@@ -50,7 +50,7 @@ const Slider = () => {
             <Container>
                 <div className="slide-text">
                   <h1>Welcome to</h1>
-                  <h2>Sajna Spice</h2>
+                  <h2>Indian Lounge</h2>
                   <p>Indian Restaurant &amp; Takeaway</p>
                 </div>   
                 <div className="mt-40 m-center">
@@ -69,7 +69,7 @@ const Slider = () => {
             <Container>
                 <div className="slide-text">
                   <h1>Welcome to</h1>
-                  <h2>Sajna Spice</h2>
+                  <h2>Indian Lounge</h2>
                   <p>Indian Restaurant &amp; Takeaway</p>
                 </div> 
                 <div className="mt-40 m-center">

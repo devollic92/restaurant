@@ -9,12 +9,12 @@ const Introduction = () => {
             <Container>
                 <Row>
                     <Col md={12} className="text-center">
-                        <h1 className="page-heading-1">Best Indian Restaurant &amp; Takeaway in Carmel Street, Abertillery</h1>
+                        <h1 className="page-heading-1">Best Indian Restaurant &amp; Takeaway in Kings Cross, London</h1>
                     </Col>
                 </Row>
                 <Row>
                     <Col md={12} className="text-center">
-                        <h2 className="page-heading-2">Local Indian Restaurant &amp; Takeaway in Carmel Street, Abertillery NP13 serving near Llanhilleth, Trinant NP11, Manmoel NP12 &amp; Brynmawr NP23</h2>
+                        <h2 className="page-heading-2">Local Indian Restaurant &amp; Takeaway in Kings Cross, London WC1X serving near Clerkenwell, Finsbury, Islington EC1R, Euston NW1</h2>
                     </Col>
                 </Row>
                 <Row>
@@ -26,8 +26,8 @@ const Introduction = () => {
                 </Row>
                 <Row>
                     <Col md={12}>
-                        <p>Sajna Spice, top-ranked Indian takeaway in Abertillery, offers you a great selection of innovative &amp; mouthwatering dishes. We are currently serving in Llanhilleth, Trinant, Manmoel, Brynmawr and providing many traditional and old favorites that will leave you wanting for more.</p>
-                        <p>Our chefs at Sajna Spice always ensure the fulfillment of your taste bud with the specialties in their field. You can always explore our popular foods namely – Tikka Massala, Madras, Garlic Chile etc. Don’t forget to order online delicious Indian food in Abertillery with just a few clicks through our website. Get mesmerized with our specialties today and enjoy delicious food.</p>
+                        <p>Here at Indian Lounge, we want you to feel special and experience a sense of royalty in a relaxed ambience. Our top rated chef use only the freshest ingredients, assuring you get the highest possible quality authentic Asian Cuisine.</p>
+                        <p>Not only do we offer a very comprehensive menu, should you require a dish specially cooked to order, or have any special dietary requirements we would be happy to accommodate your request. Relax, eat, drink and enjoy your Indian Lounge experience.</p>
                     </Col>
                 </Row>
             </Container>

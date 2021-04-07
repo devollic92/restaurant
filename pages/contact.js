@@ -26,7 +26,7 @@ const Contact = () => {
                     </Row>
                 </Container>
             </div>
-            <Iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4942.247266409692!2d-3.132929!3d51.730774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9aa2884044b85dc8!2sSajna%20Spice!5e0!3m2!1sen!2sbd!4v1617455327997!5m2!1sen!2sbd" width="100%" height={450} />
+            <Iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4964.120254652927!2d-0.122096!3d51.530457!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b394bd6ef4d%3A0xdbe44a0067453657!2s343%20Grays%20Inn%20Rd%2C%20Kings%20Cross%2C%20London%20WC1X%208PX%2C%20UK!5e0!3m2!1sen!2sbd!4v1617773280559!5m2!1sen!2sbd" width="100%" height={450} />
         </>
     );
 }

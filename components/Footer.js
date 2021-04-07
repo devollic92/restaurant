@@ -10,10 +10,10 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Col md={4}>
-                        <h3 className="page-heading-1">Sajna Spice</h3>
-                        <li className="list-unstyled">Email: <Link href="mailto:info@sajnaspice.co.uk"><a>info@sajnaspice.co.uk</a></Link></li>
-                        <li className="list-unstyled">Tel: <Link href="tel:01617052711"><a>0161 705 2711</a></Link></li>
-                        <p>4 Carmel Street, Abertillery, Newport NP13 1DG</p>
+                        <h3 className="page-heading-1">Indian Lounge</h3>
+                        <li className="list-unstyled">Email: <Link href="mailto:info@indianlounge.co.uk"><a>info@indianlounge.co.uk</a></Link></li>
+                        <li className="list-unstyled">Tel: <Link href="tel:02078378398"><a>020 7837 8398</a></Link></li>
+                        <p>343 Grays Inn Road, Kings Cross WC1X 8PX</p>
                     </Col>
                     <Col md={4}>
                         <h3 className="page-heading-1">Today's Opening Hours</h3>
