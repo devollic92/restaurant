@@ -38,7 +38,7 @@ const Header = () => {
                         <Row>
                             <Col>
                             <Navbar collapseOnSelect expand="lg">
-                            <Link href="/"><a><img src="/main-logo.png" className="img-fluid" alt="logo"/></a></Link>
+                            <Link href="/" passHref><Nav.Link><img src="/main-logo.png" className="img-fluid" alt="logo"/></Nav.Link></Link>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                             <Navbar.Collapse id="responsive-navbar-nav">
                                 <Nav className="ml-auto">
