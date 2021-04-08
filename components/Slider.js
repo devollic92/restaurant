@@ -50,8 +50,8 @@ const Slider = () => {
                   <p>Indian Restaurant &amp; Takeaway</p>
                 </div>   
                 <div className="mt-40 m-center">
-                <Link href="#"><a className="custom-btn" target="_blank">Order Online</a></Link>
-                <Link href="#"><a className="custom-btn no-margin-right" target="_blank">Reservation</a></Link>
+                <Link href="https://backoffice.chefonline.co.uk/draft/indian-lounge-kings-cross-london-wc1x/menu"><a className="btn custom-btn" target="_blank">Order Online</a></Link>
+                <Link href="https://backoffice.chefonline.co.uk/draft/indian-lounge-kings-cross-london-wc1x/reservations"><a className="btn custom-btn no-margin-right" target="_blank">Reservation</a></Link>
               </div>                 
               </Container>                
           </div>  
@@ -69,8 +69,8 @@ const Slider = () => {
                   <p>Indian Restaurant &amp; Takeaway</p>
                 </div> 
                 <div className="mt-40 m-center">
-                <Link href="#"><a className="custom-btn" target="_blank">Order Online</a></Link>
-                <Link href="#"><a className="custom-btn no-margin-right" target="_blank">Reservation</a></Link>
+                <Link href="https://backoffice.chefonline.co.uk/draft/indian-lounge-kings-cross-london-wc1x/menu"><a className="btn custom-btn" target="_blank">Order Online</a></Link>
+                <Link href="https://backoffice.chefonline.co.uk/draft/indian-lounge-kings-cross-london-wc1x/reservations"><a className="btn custom-btn no-margin-right" target="_blank">Reservation</a></Link>
               </div>                   
               </Container>              
           </div>  
@@ -88,8 +88,8 @@ const Slider = () => {
                 <p>Indian Restaurant &amp; Takeaway</p>
               </div>
               <div className="mt-40 m-center">
-                <Link href="#"><a id="fifth" className="custom-btn" target="_blank">Order Online</a></Link>
-                <Link href="#"><a className="custom-btn no-margin-right" target="_blank">Reservation</a></Link>
+                <Link href="https://backoffice.chefonline.co.uk/draft/indian-lounge-kings-cross-london-wc1x/menu"><a id="fifth" className="btn custom-btn" target="_blank">Order Online</a></Link>
+                <Link href="https://backoffice.chefonline.co.uk/draft/indian-lounge-kings-cross-london-wc1x/reservations"><a className="btn custom-btn no-margin-right" target="_blank">Reservation</a></Link>
               </div>   
             </Container>           
           </div>  

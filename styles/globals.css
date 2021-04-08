@@ -41,7 +41,7 @@ body {
 
 /* Custom Button */
 
-.custom-btn {
+.btn.custom-btn {
 	background: #7E017D;
 	color: #fff;
 	padding: 12px 20px;
@@ -54,9 +54,9 @@ body {
 	font-weight: 600;
 }
 
-.custom-btn:hover,
-.custom-btn:focus,
-.custom-btn:active {
+.btn.custom-btn:hover,
+.btn.custom-btn:focus,
+.btn.custom-btn:active {
 	background: #7E017D;
 	color: #fff;
   text-decoration: none;  
@@ -501,97 +501,6 @@ body {
   }
 }
 
-/* .flexbin {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap;
-    margin: -2.5px;
-}
-.flexbin:after {
-    content: '';
-    flex-grow: 999999999;
-    min-width: 300px;
-    height: 0;
-}
-.flexbin>* {
-    position: relative;
-    display: block;
-    height: 180px;
-    margin: 2.5px;
-    flex-grow: 1;
-}
-.flexbin>*>img {
-    height: 180px;
-    object-fit: cover;
-    max-width: 100%;
-    min-width: 100%;
-    vertical-align: bottom;
-}
-.flexbin.flexbin-margin {
-    margin: 2.5px;
-}
-@media(max-width:980px) {
-    .flexbin {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap;
-    margin: -2.5px;
-}
-.flexbin:after {
-    content: '';
-    flex-grow: 999999999;
-    min-width: 150px;
-    height: 0;
-}
-.flexbin>* {
-    position: relative;
-    display: block;
-    height: 150px;
-    margin: 2.5px;
-    flex-grow: 1;
-}
-.flexbin>*>img {
-    height: 150px;
-    object-fit: cover;
-    max-width: 100%;
-    min-width: 100%;
-    vertical-align: bottom;
-}
-.flexbin.flexbin-margin {
-    margin: 2.5px;
-}
-}@media(max-width:400px) {
-    .flexbin {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap;
-    margin: -2.5px;
-}
-.flexbin:after {
-    content: '';
-    flex-grow: 999999999;
-    min-width: 100px;
-    height: 0;
-}
-.flexbin>* {
-    position: relative;
-    display: block;
-    height: 100px;
-    margin: 2.5px;
-    flex-grow: 1;
-}
-.flexbin>*>img {
-    height: 100px;
-    object-fit: cover;
-    max-width: 100%;
-    min-width: 100%;
-    vertical-align: bottom;
-}
-.flexbin.flexbin-margin {
-    margin: 2.5px;
-}
-} */
-
 /* Footer block */
 
 .footer {
@@ -617,6 +526,54 @@ body {
 
 .hygiene {
   margin-top: 8px;
+}
+
+.time {
+  font-size: 15px !important;
+  background: none !important;
+  color: #000 !important;
+  border: none !important;
+  padding: 0px !important;
+  text-decoration: none !important;
+}
+
+.time:hover,
+.time:focus,
+.time:active {
+  background: none !important;
+  color: #000 !important;
+  border: none !important;  
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+.time-list {
+  margin-bottom: 0px !important;
+  padding: 10px 0px !important;
+}
+
+.time-list li {
+  font-size: 12px;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.time-list li:first-child {
+  padding-top: 0px !important;
+}
+
+.time-list li:last-child {
+  border-bottom: none !important;
+  padding-bottom: 5px;
+}
+
+.timing-body .popover-body {
+  padding: 0px 1.3rem !important;
+}
+
+.popover {
+    border-radius: 3px !important;
 }
 
 /* Copyright */
@@ -650,6 +607,15 @@ body {
 }
 
 @media (max-width:767px) {
+
+  .reservation {
+    background-image: url('../public/reservation.jpg');
+    position: relative;
+    background-attachment: scroll;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-position: left center;
+  }  
 
   .inner-banner {
     background-position: top center !important;
