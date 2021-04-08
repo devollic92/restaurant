@@ -38,10 +38,10 @@ const Header = () => {
                         <Row>
                             <Col>
                             <Navbar collapseOnSelect expand="lg">
-                            <Link href="/" passHref><Nav.Link><img src="/main-logo.png" className="img-fluid" alt="logo"/></Nav.Link></Link>
+                            <Link href="/" passHref><Nav.Link className="logo"><img src="/main-logo.png" className="img-fluid" alt="logo"/></Nav.Link></Link>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                             <Navbar.Collapse id="responsive-navbar-nav">
-                                <Nav className="ml-auto">
+                                <Nav className="ml-auto mobile-view">
                                 <Link href="/" passHref><Nav.Link>Home</Nav.Link></Link>
                                 <Link href="https://backoffice.chefonline.co.uk/draft/indian-lounge-kings-cross-london-wc1x/menu" passHref><Nav.Link target="_blank">Order Online</Nav.Link></Link>
                                 <Link href="https://backoffice.chefonline.co.uk/draft/indian-lounge-kings-cross-london-wc1x/reservations" passHref><Nav.Link target="_blank">Reservation</Nav.Link></Link>                                

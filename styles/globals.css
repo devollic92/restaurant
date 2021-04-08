@@ -152,10 +152,12 @@ body {
 
 /* Topmenu */
 
+.logo {
+  padding: 0px !important;
+}
+
 .topmenu {
   background: #F6F5F1;
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 
 .navbar {
@@ -687,3 +689,15 @@ body {
   }
 
 }
+
+@media (max-width: 991px) {
+
+  .mobile-view .nav-link {
+    border-bottom: 1px solid #e0e0e0 !important;
+  }
+
+  .mobile-view .nav-link:last-child {
+    border-bottom: none !important;
+  }  
+  
+} 
