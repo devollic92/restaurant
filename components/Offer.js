@@ -12,7 +12,7 @@ const OfferLeft = () => {
                     <Col md={6}>
                         <div className="offer-main custom-margin">
                             <div className="img-block">
-                                <img src={img1} alt="Offer1" className="img-fluid"/>       
+                                <img src={img1} alt="Offer1" className="img-fluid" width={1200} height={700} />       
                                 <Link href="https://backoffice.chefonline.co.uk/draft/indian-lounge-kings-cross-london-wc1x/menu"><a target="_blank" className="btn-position custom-btn" target="_blank">View Menu</a></Link>
                             </div>    
                             <div className="offer-name">
@@ -27,7 +27,7 @@ const OfferLeft = () => {
                     <Col md={6}>
                         <div className="offer-main">
                             <div className="img-block">
-                                <img src={img2} alt="Offer2" className="img-fluid"/>       
+                                <img src={img2} alt="Offer2" className="img-fluid" width={1200} height={700} />       
                                 <Link href="https://backoffice.chefonline.co.uk/draft/indian-lounge-kings-cross-london-wc1x/menu"><a target="_blank" className="btn-position custom-btn" target="_blank">Order Now</a></Link>
                             </div>
                             <div className="offer-name">

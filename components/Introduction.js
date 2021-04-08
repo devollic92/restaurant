@@ -19,7 +19,7 @@ const Introduction = () => {
                 <Row>
                     <Col md={12}>
                         <div className="ornaments text-center">
-                            <img src={ornaments} alt="Ornaments"/>
+                            <img src={ornaments} width={32} height={26} alt="Ornaments"/>
                         </div>
                     </Col>
                 </Row>
