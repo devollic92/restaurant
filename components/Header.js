@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Col, Container, Row, Navbar, Nav } from "react-bootstrap";
+import { Container, Row, Col, Navbar, Nav } from 'react-bootstrap';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTripadvisor, faTwitter } from "@fortawesome/free-brands-svg-icons";
