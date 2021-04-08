@@ -1,10 +1,13 @@
 import Link from 'next/link';
 import { Col, Container, Row, Navbar, Nav } from "react-bootstrap";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTripadvisor, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
+
 const Header = () => {
+
     return (
         <>
             <div className="header">
@@ -34,16 +37,16 @@ const Header = () => {
                     <Container>
                         <Row>
                             <Col>
-                            <Navbar expand="lg">
+                            <Navbar collapseOnSelect expand="lg">
                             <Link href="/"><a><img src="/main-logo.png" className="img-fluid" alt="logo"/></a></Link>
-                            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                            <Navbar.Collapse id="basic-navbar-nav">
+                            <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+                            <Navbar.Collapse id="responsive-navbar-nav">
                                 <Nav className="ml-auto">
-                                <Link href="/"><a className="nav-link">Home</a></Link>
-                                <Link href="https://backoffice.chefonline.co.uk/draft/indian-lounge-kings-cross-london-wc1x/menu"><a target="_blank" className="nav-link">Order Online</a></Link>
-                                <Link href="https://backoffice.chefonline.co.uk/draft/indian-lounge-kings-cross-london-wc1x/reservations"><a target="_blank" className="nav-link">Reservation</a></Link>
-                                <Link href="/gallery"><a className="nav-link">Gallery</a></Link>
-                                <Link href="/contact"><a className="nav-link">Contact</a></Link>
+                                <Link href="/" passHref><Nav.Link>Home</Nav.Link></Link>
+                                <Link href="https://backoffice.chefonline.co.uk/draft/indian-lounge-kings-cross-london-wc1x/menu" passHref><Nav.Link target="_blank">Order Online</Nav.Link></Link>
+                                <Link href="https://backoffice.chefonline.co.uk/draft/indian-lounge-kings-cross-london-wc1x/reservations" passHref><Nav.Link target="_blank">Reservation</Nav.Link></Link>                                
+                                <Link href="/gallery" passHref><Nav.Link>Gallery</Nav.Link></Link>
+                                <Link href="/contact" passHref><Nav.Link>Contact</Nav.Link></Link>
                                 </Nav>
                             </Navbar.Collapse>
                             </Navbar>                    
